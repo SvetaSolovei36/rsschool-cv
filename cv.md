@@ -1,4 +1,3 @@
-[<img src="./My%20foto.JPG" width="250"/>](./My%20foto.JPG)
 ##Personal information
 **Name** _Sviatlana Salavei_
 **Address** _Kahovskaya Street, apt. 66-25, Minsk, 220053, Republic of Belarus_

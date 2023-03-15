@@ -1,14 +1,7 @@
 body {
     background-color: rgb(224, 255, 255)
     }
-.contacts {
-top: 0
-left: 0
-color: rgb(216, 191, 216);
-}
-.two-columns {
-    display: inline-block;
-}
+
 .skills {
 float: left;
 padding: 15px;

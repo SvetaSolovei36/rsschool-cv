@@ -1,12 +1,109 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rsschool-cv-html</title>
+  <link rel=" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<img src="./IMG_0197 (2).JPG" alt="My foto">
+
 <body>
+  <div class="container-centered">
+    <div class="two-columns">
+      <div class="left-column">
+        <header>
+          <div class="container-centered">
+        <img src="https://lh3.googleusercontent.com/a-/AOh14GiC0geH8c0AGFsQzmGOtcwoJaOMD2lhWCObSRKePQ=s288-p-rw-no">
+      </header>
+        <h1>Sviatlana Solovei</h1>
+          <h2>Front-end web developer (Beginner)</h2>
+        
+        <main>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="http://s1.iconbird.com/ico/2013/9/446/w512h5121380376664MetroUIPhone.png" alt="Phone Icon" width="30" height="30">
+                <p>+375(29)311-61-85</p>
+              </li>
+              <li>
+                <img src="http://s1.iconbird.com/ico/2013/9/446/w512h5121380376407MetroUIEmail.png" alt="Email Icon" width="30" height="30">
+                <p>svetasolovei1985@gmail.com</p>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML, CSS</li>
+              <li>JavaScript Basics</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+                <p>A2</p>
+              </li>
+              <li>
+                <p class="language-name">Russian</p>
+                <p>Native</p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+                     <section class="education">
+          <div class="sub-header">
+            <h3>Education</h3>
+          </div>
+          <p><strong>Belarusian State Technological University</strong></p>
+          <p>Specialization: certification engineer</p>
+        </section>
+        <section class="courses">
+          <div class="sub-header">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li>JavaScript Manual on learnjavascript.ru</li>
+            <li>RS Schools «JavaScript/Front-end. Stage 1 (now)»</li>
+          </ul>
+        </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <h3>Code example</h3>
+<code>
+    let userName=prompt(`Кто там?`);
+    if (userName == `Админ`) {
+      let password=prompt(`Пароль`);
+      if (password == `Я главный`) {
+          alert(`Здравствуйте!`);
+    } else if (password == `` || password == null) {
+        alert(`Отменено`);
+     } else {
+       alert (`Неверный пароль`)
+     }
+    } else if (userName == `` || userName == null) {
+      alert(`Отменено`);
+    } else {
+        alert(`Я вас не знаю`);
+  }     
+</code>
+          </pre>
+        </section>
+      </aside>
+    </div>
+  </div>
 </body>
+
 </html>
